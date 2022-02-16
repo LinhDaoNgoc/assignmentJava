@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.slick-dots {
+  position: absolute;
+  bottom: -80px;
+  align-items: center;
+  display: flex !important;
+  justify-content: center;
+  gap: 0 15px;
+}
+.slick-dots button {
+  font-size: 0;
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  background-color: #eee;
+  border: none;
+  outline: none;
+  transition: all 0.2s linear;
+}
+.slick-dots .slick-active button {
+  background-color: #ffbe33;
+  width: 20px;
+  height: 20px;
+}
