@@ -9,7 +9,7 @@ const ProductList = {
             >
               <img
                 class="group-hover:scale-110 ease-in-out duration-300"
-                src="images/o1.jpg"
+                src="https://res.cloudinary.com/assignment22/image/upload/v1645243669/img/o1_d73adp.jpg"
                 alt=""
               />
             </div>
@@ -43,7 +43,7 @@ const ProductList = {
             >
               <img
                 class="group-hover:scale-110 ease-in-out duration-300"
-                src="images/o2.jpg"
+                src="https://res.cloudinary.com/assignment22/image/upload/v1645243669/img/o2_rrtyhz.jpg"
                 alt=""
               />
             </div>
@@ -84,7 +84,7 @@ const ProductList = {
               >
                 <img
                   class="max-w-full max-h-[145px] mt-4 duration-200 group-hover:scale-110"
-                  src="images/f1.png"
+                  src="https://res.cloudinary.com/assignment22/image/upload/v1645243736/img/f1_grmyrl.png"
                   alt=""
                 />
               </div>
@@ -124,7 +124,7 @@ const ProductList = {
               >
                 <img
                   class="max-w-full max-h-[145px] mt-4 duration-200 group-hover:scale-110"
-                  src="images/f1.png"
+                  src="https://res.cloudinary.com/assignment22/image/upload/v1645243736/img/f1_grmyrl.png"
                   alt=""
                 />
               </div>
@@ -164,7 +164,7 @@ const ProductList = {
               >
                 <img
                   class="max-w-full max-h-[145px] mt-4 duration-200 group-hover:scale-110"
-                  src="images/f1.png"
+                  src="https://res.cloudinary.com/assignment22/image/upload/v1645243736/img/f1_grmyrl.png"
                   alt=""
                 />
               </div>
