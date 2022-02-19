@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+.slick-slider {
+  position: absolute !important;
+}
 .slick-dots {
   position: absolute;
   bottom: -80px;
