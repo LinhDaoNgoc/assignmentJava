@@ -1,10 +1,12 @@
 import Navigo from "navigo";
-// import DashboardPage from "./pages/admin/dashboard";
+import DashboardPage from "./pages/admin/dashboard";
 // import AdminNewsPage from "./pages/admin/news";
 // import AdminNewsAddPage from "./pages/admin/news/add";
 // import AdminEditPost from "./pages/admin/news/edit";
 // import DetailNewsPage from "./pages/detail";
 import HomePage from "./pages/home";
+import Signin from "./pages/signin";
+import Signup from "./pages/signup";
 
 const router = new Navigo("/", { linksSelector: "a" });
 
@@ -30,14 +32,14 @@ router.on({
   "/": () => print(HomePage),
   // "/about": () => print(AboutPage),
   // "/news/:id": (value) => print(DetailNewsPage, value.data.id),
-  // "/admin/dashboard": () => {
-  //   print(DashboardPage);
-  // },
+  "/admin/dashboard": () => {
+    print(DashboardPage);
+  },
   // "/admin/news": () => print(AdminNewsPage),
   // "/admin/news/:id/edit": ({ data }) => print(AdminEditPost, data.id),
   // "/admin/news/add": () => print(AdminNewsAddPage),
-  // "/signup": () => print(Signup),
-  // "/signin": () => print(Signin),
+  "/signup": () => print(Signup),
+  "/signin": () => print(Signin),
 });
 
 router.resolve();

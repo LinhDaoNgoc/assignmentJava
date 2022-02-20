@@ -84,12 +84,12 @@ const Header = {
                   <li
                     class="rounded-lg text-black hover:bg-[#ffbe33] hover:text-white"
                   >
-                    <a class="inline-block p-2" href="../src/pages/signin.js">Đăng nhập</a>
+                    <a class="inline-block p-2" href="/signin">Đăng nhập</a>
                   </li>
                   <li
                     class="rounded-lg text-black hover:bg-[#ffbe33] hover:text-white"
                   >
-                    <a class="inline-block p-2" href="/admin">Đăng ký</a>
+                    <a class="inline-block p-2" href="/signup">Đăng ký</a>
                   </li>
                 </ul>
               </div>

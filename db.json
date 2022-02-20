@@ -1,0 +1,66 @@
+{
+  "products": [
+    {
+      "title": "Apple iPhone 13 Pro Max",
+      "img": "https://cdn.hoanghamobile.com/i/productlist/ts/Uploads/2021/09/15/image-removebg-preview-15.png",
+      "price": "3000000",
+      "id": "1"
+    },
+    {
+      "title": "Apple iPhone 13 Pro",
+      "img": "https://cdn.hoanghamobile.com/i/productlist/ts/Uploads/2021/09/15/image-removebg-preview-16.png",
+      "price": "2000000",
+      "id": "2"
+    },
+    {
+      "title": "Apple iPhone 13",
+      "img": "https://cdn.hoanghamobile.com/i/productlist/ts/Uploads/2022/01/14/ip13.png",
+      "price": "1000000",
+      "id": "3"
+    },
+    {
+      "title": "Apple iPhone 12 Pro Max",
+      "img": "https://cdn.hoanghamobile.com/i/productlist/ts/Uploads/2021/03/19/iphoone-12.png",
+      "price": "2500000",
+      "id": "4"
+    },
+    {
+      "title": "Apple iPhone 11",
+      "img": "https://cdn.hoanghamobile.com/i/productlist/ts/Uploads/2021/03/19/iphone-11.png",
+      "price": "100000",
+      "id": "5"
+    }
+  ],
+  "users": [
+    {
+      "email": "linh@gmail.com",
+      "password": "$2a$10$13vrBKKbM2uFULY.Oa3WAuBbjx7v6hD0h0VnGJdFBzgKJH94axFQ6",
+      "username": "linhdao",
+      "id": 1
+    },
+    {
+      "email": "quyet@gmail.com",
+      "password": "$2a$10$1JZxDC28ROCKpRdgJ53Rj.bOkmI3wEXm9td0Er.qCj2MqGXKqUuSO",
+      "username": "quyết",
+      "id": 2
+    },
+    {
+      "email": "ling@gmail.com",
+      "password": "$2a$10$Cgyto4eTke3yJnhBVf9PE.n2u1nx4GKwfXNhicyMFzdNz3hQcWFKu",
+      "username": "ling",
+      "id": 3
+    },
+    {
+      "email": "huy1@gmail.com",
+      "password": "$2a$10$gdVzSmGqnbKy//e4mK89HuX0gYGDLneLQBMXJ/nu21aBONs78BmBC",
+      "username": "huy1",
+      "id": 4
+    },
+    {
+      "email": "lam1@gmail.com",
+      "password": "$2a$10$9BU5AmBOWq4C.0d9dMxaxutRfloB5E1VbnT/2s3JnRPJFF5JYF0i2",
+      "username": "lam1",
+      "id": 5
+    }
+  ]
+}
