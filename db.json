@@ -61,6 +61,18 @@
       "password": "$2a$10$9BU5AmBOWq4C.0d9dMxaxutRfloB5E1VbnT/2s3JnRPJFF5JYF0i2",
       "username": "lam1",
       "id": 5
+    },
+    {
+      "email": "hoa@gmail.com",
+      "password": "$2a$10$iyyS/gXyd61FbxJR3o5UFOxJTxJg5QUHfuSR9odjpermLeBMatglC",
+      "username": "hòa",
+      "id": 6
+    },
+    {
+      "email": "demo@gmail.com",
+      "password": "$2a$10$uHOiqPMXResRjfJIe6kpUunVb9bR44tcWR5uSsHFULDwn9U287axq",
+      "username": "demo",
+      "id": 7
     }
   ]
 }

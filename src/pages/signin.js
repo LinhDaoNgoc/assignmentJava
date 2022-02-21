@@ -102,7 +102,7 @@ const Signin = {
         });
         localStorage.setItem("user", JSON.stringify(data.user));
         if (data.user.id == 1) {
-          document.location.href = "/admin/news";
+          document.location.href = "/admin/news/add";
         } else {
           document.location.href = "/";
         }
