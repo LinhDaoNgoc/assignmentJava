@@ -12,7 +12,7 @@ import HomePage from "./pages/home";
 import Signin from "./pages/signin";
 import Signup from "./pages/signup";
 import productList from "./components/productList";
-
+import detail from "./pages/detail";
 const router = new Navigo("/", { linksSelector: "a" });
 
 const print = async (content, id) => {
@@ -55,6 +55,7 @@ router.on({
   "/signin": () => print(Signin),
   "/cart": () => print(CartPage),
   "/products": () => print(productList),
+  "/detail/:id": ({ data }) => print(detail, data.id),
 });
 
 router.resolve();

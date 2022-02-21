@@ -13,18 +13,20 @@ const ProductList = {
 
           ${data
             .map(
-              ({ img, title, desc, price }) => /* html */ `
+              ({ img, title, desc, price, id }) => /* html */ `
           <div
           class="relative mt-6 rounded-2xl overflow-hidden bg-[#222831] group"
         >
           <div
             class="bg-[#f1f2f3] flex justify-center h-[215px] rounded-bl-[45px] p-6"
           >
-            <img
+           <a   href="/detail/${id}"> <img
+          
               class="max-w-full max-h-[145px] mt-4 duration-200 group-hover:scale-110"
               src="${img}"
               alt=""
             />
+            </a>
           </div>
           <div class="p-[25px]">
             <h3 class="font-semibold text-xl mb-2 text-white">
