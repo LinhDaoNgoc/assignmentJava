@@ -13,13 +13,6 @@
       "img": "https://res.cloudinary.com/assignment22/image/upload/v1645243736/imgproduct/f1_grmyrl.png",
       "price": "3000000",
       "id": "2"
-    },
-    {
-      "title": "Delicious Pizza",
-      "desc": "Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque",
-      "img": "https://res.cloudinary.com/assignment22/image/upload/v1645243736/imgproduct/f1_grmyrl.png",
-      "price": "3000000",
-      "id": "3"
     }
   ],
   "users": [

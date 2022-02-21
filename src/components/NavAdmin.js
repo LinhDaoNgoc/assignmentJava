@@ -1,5 +1,5 @@
 const NavAdmin = {
-  print() {
+  render() {
     return /* html */ `
       <div class="min-h-full">
       <nav class="bg-gray-800">
@@ -8,7 +8,7 @@ const NavAdmin = {
             <div class="flex items-center">
               <div class="flex-shrink-0">
               <a href="/">
-                <img class="h-10 w-10" src="https://res.cloudinary.com/assignmentjs/image/upload/v1644248903/img/logoc_tixge3.png">
+                <img class="h-10 w-10" src="https://res.cloudinary.com/assignment22/image/upload/v1645160973/img/logoo_tj55td.png">
               </a>
               </div>
               <div class="hidden md:block">
