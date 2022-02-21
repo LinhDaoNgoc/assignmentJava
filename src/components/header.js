@@ -144,11 +144,13 @@ const Header = {
   afterRender() {
     const userName = document.querySelector(".user-name");
     const logout = document.querySelector(".logout");
-    userName.innerHTML = JSON.parse(localStorage.getItem("user")).username;
-    logout.addEventListener("click", () => {
-      localStorage.removeItem("user");
-      reRender(Header, "header");
-    });
+    if (localStorage.getItem("user")) {
+      userName.innerHTML = JSON.parse(localStorage.getItem("user")).username;
+      logout.addEventListener("click", () => {
+        localStorage.removeItem("user");
+        reRender(Header, "header");
+      });
+    }
   },
 };
 export default Header;
