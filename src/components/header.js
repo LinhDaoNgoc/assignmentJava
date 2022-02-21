@@ -1,3 +1,5 @@
+import { reRender } from "../utils/rerender";
+
 const Header = {
   render() {
     return /* html */ `
@@ -20,7 +22,7 @@ const Header = {
               <li class="inline-block mx-5">
                 <a
                   class="text-white text-lg hover:text-[#ffbe33] ease-in-out duration-300"
-                  href="#"
+                  href="/"
                   >Trang Chủ</a
                 >
               </li>
@@ -61,40 +63,50 @@ const Header = {
                   clip-rule="evenodd"
                 />
               </svg>
+
               <div
                 class="in-up--sub absolute top-[70px] bg-white shadow-xl z-50 p-3 rounded-lg invisible ease-linear duration-300 w-60 right-[-96px] group-hover:visible before:absolute before:-top-2 before:left-10 before:w-5 before:h-5 before:bg-white before:rounded before:rotate-45 before:z-10 before:shadow-xl"
               >
-                <div class="flex items-center pb-3 w-full">
-                  <div class="flex-shrink-0 h-10 w-10">
-                    <img
-                      class="h-10 w-10 rounded-full"
-                      id="user-img"
-                      src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=facearea&amp;facepad=4&amp;w=256&amp;h=256&amp;q=60"
-                      alt=""
-                    />
-                  </div>
-                  <div class="ml-4">
-                    <div class="text-sm text-gray-500">Xin chào !</div>
-                    <div class="text-sm font-medium text-gray-900">
-                      <span id="user-name">Linh</span>
-                    </div>
-                  </div>
-                </div>
-                <ul>
-                  <li
-                    class="rounded-lg text-black hover:bg-[#ffbe33] hover:text-white"
-                  >
-                    <a class="inline-block p-2" href="/signin">Đăng nhập</a>
-                  </li>
-                  <li
-                    class="rounded-lg text-black hover:bg-[#ffbe33] hover:text-white"
-                  >
-                    <a class="inline-block p-2" href="/signup">Đăng ký</a>
-                  </li>
-                </ul>
+
+              ${
+                localStorage.getItem("user")
+                  ? /* HTML */ `
+                      <div class="flex items-center pb-3 w-full">
+                        <div class="ml-4">
+                          <div class="text-sm text-gray-500">Xin chào !</div>
+                          <div>
+                            <span
+                              class="user-name text-sm font-medium text-gray-900"
+                            ></span>
+                          </div>
+                        </div>
+                      </div>
+                      <ul>
+                        <li
+                          class="rounded-lg text-black hover:bg-[#ffbe33] hover:text-white"
+                        >
+                          <a class="inline-block p-2" href="/admin"
+                            >Trang quản trị</a
+                          >
+                        </li>
+                        <li
+                          class="logout rounded-lg text-black hover:bg-[#ffbe33] hover:text-white cursor-pointer"
+                        >
+                          <span class="inline-block p-2">Đăng xuất</span>
+                        </li>
+                      </ul>
+                    `
+                  : `<ul>
+                                <li class="rounded-lg text-black hover:bg-[#ffbe33] hover:text-white"><a class="inline-block p-2" href="/signin">Đăng nhập</a></li>
+                                <li class="rounded-lg text-black hover:bg-[#ffbe33] hover:text-white"><a class="inline-block p-2" href="/signup">Đăng ký</a></li>
+                               </ul>`
+              }
               </div>
+
+
+
             </div>
-            <a href=""> <div
+            <a href="/cart"> <div
               class="cart text-white hover:text-[#ffbe33] ease-in-out duration-300"
             >
             <svg
@@ -128,6 +140,15 @@ const Header = {
         </div>
       </header>
         `;
+  },
+  afterRender() {
+    const userName = document.querySelector(".user-name");
+    const logout = document.querySelector(".logout");
+    userName.innerHTML = JSON.parse(localStorage.getItem("user")).username;
+    logout.addEventListener("click", () => {
+      localStorage.removeItem("user");
+      reRender(Header, "header");
+    });
   },
 };
 export default Header;

@@ -13,6 +13,7 @@ const HomePage = {
   },
   afterRender() {
     Slider.afterRender();
+    Header.afterRender();
   },
 };
 export default HomePage;

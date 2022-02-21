@@ -1,5 +1,6 @@
 import Navigo from "navigo";
 import DashboardPage from "./pages/admin/dashboard";
+import CartPage from "./pages/cart";
 // import AdminNewsPage from "./pages/admin/news";
 // import AdminNewsAddPage from "./pages/admin/news/add";
 // import AdminEditPost from "./pages/admin/news/edit";
@@ -40,6 +41,7 @@ router.on({
   // "/admin/news/add": () => print(AdminNewsAddPage),
   "/signup": () => print(Signup),
   "/signin": () => print(Signin),
+  "/cart": () => print(CartPage),
 });
 
 router.resolve();
