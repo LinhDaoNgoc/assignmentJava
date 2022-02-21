@@ -1,7 +1,3 @@
-/* eslint-disable no-multi-assign */
-/* eslint-disable no-plusplus */
-/* eslint-disable eqeqeq */
-/* eslint-disable max-len */
 import Footer from "../components/footer";
 import Header from "../components/header";
 import {
