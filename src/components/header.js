@@ -29,7 +29,7 @@ const Header = {
               <li class="inline-block mx-5">
                 <a
                   class="text-white text-lg hover:text-[#ffbe33] ease-in-out duration-300"
-                  href="#"
+                  href="/products"
                   >Sản phẩm</a
                 >
               </li>

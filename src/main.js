@@ -1,6 +1,8 @@
 import Navigo from "navigo";
 import DashboardPage from "./pages/admin/dashboard";
 import ProductsAdminPage from "./pages/Admin/products";
+import ProductAdd from "./pages/Admin/products/productAdd";
+import ProductEdit from "./pages/Admin/products/productUpdate";
 import CartPage from "./pages/cart";
 // import AdminNewsPage from "./pages/admin/news";
 // import AdminNewsAddPage from "./pages/admin/news/add";
@@ -44,6 +46,7 @@ router.on({
     print(ProductsAdminPage);
   },
   "/admin/products/add": () => print(ProductAdd),
+  "/admin/products/:id/edit": (value) => print(ProductEdit, value.data.id),
   // "/admin/news": () => print(AdminNewsPage),
   // "/admin/news/:id/edit": ({ data }) => print(AdminEditPost, data.id),
   // "/admin/news/add": () => print(AdminNewsAddPage),

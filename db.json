@@ -13,6 +13,20 @@
       "img": "https://res.cloudinary.com/assignment22/image/upload/v1645243736/imgproduct/f1_grmyrl.png",
       "price": "3000000",
       "id": "2"
+    },
+    {
+      "id": "JFQP9qc",
+      "title": "Pizza Rang Bơ",
+      "price": "20000",
+      "desc": "Sản phẩm đến từ châu âu",
+      "img": "http://res.cloudinary.com/assignmentjs/image/upload/v1645454318/imgproduct/zr855mltdntpufbrvgce.png"
+    },
+    {
+      "title": "demo1",
+      "price": "123",
+      "desc": "demo",
+      "img": "http://res.cloudinary.com/assignmentjs/image/upload/v1645454983/imgproduct/myzzmrhj8gqi2blhnwx3.jpg",
+      "id": "_JnSLC0"
     }
   ],
   "users": [
