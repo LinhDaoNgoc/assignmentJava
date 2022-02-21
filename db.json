@@ -73,6 +73,12 @@
       "password": "$2a$10$uHOiqPMXResRjfJIe6kpUunVb9bR44tcWR5uSsHFULDwn9U287axq",
       "username": "demo",
       "id": 7
+    },
+    {
+      "email": "test@gmail.com",
+      "password": "$2a$10$HN7pcdrxh6p/3MB.zNWt3u2VBLjp97C.dzTeu1HQwb8WWzLVHpbqq",
+      "username": "test",
+      "id": 8
     }
   ]
 }
