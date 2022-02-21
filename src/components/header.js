@@ -3,7 +3,7 @@ import { reRender } from "../utils/rerender";
 const Header = {
   render() {
     return /* html */ `
-      <div class="banner relative w-full h-[730px]">
+      <div class="banner relative w-full h-[730px]" id="Heddermain">
         <img
           class="w-full h-full object-cover"
           src="https://res.cloudinary.com/assignment22/image/upload/v1645160974/img/hero-bg_tdu0rj.jpg"
