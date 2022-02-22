@@ -82,7 +82,7 @@ const AdminNewsAddPage = {
         "title-post": "required",
       },
       messages: {
-        "title-post": "Nhập tiêu đề anh ei",
+        "title-post": "Mời bạn nhập tiêu đề",
       },
 
       submitHandler: async (form) => {

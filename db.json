@@ -16,31 +16,24 @@
     },
     {
       "id": "JFQP9qc",
-      "title": "Pizza Rang Bơ",
-      "price": "20000",
-      "desc": "Sản phẩm đến từ châu âu",
-      "img": "http://res.cloudinary.com/assignmentjs/image/upload/v1645454318/imgproduct/zr855mltdntpufbrvgce.png"
+      "title": "Hamburger Rang Bơ",
+      "price": "45",
+      "desc": "Hamburger Rang Bơ dài 1m có đến 3 loại nhân phủ đặc trưng của Pizza Hut cùng khoai tây chiên giòn thơm, vàng ươm. Phù hợp cho nhóm từ 8-10 người.",
+      "img": "http://res.cloudinary.com/assignmentjs/image/upload/v1645507086/imgproduct/a0avmrwbee0f56gm5srx.png"
     },
     {
-      "title": "demo1",
-      "price": "123",
-      "desc": "demo",
-      "img": "http://res.cloudinary.com/assignmentjs/image/upload/v1645454983/imgproduct/myzzmrhj8gqi2blhnwx3.jpg",
-      "id": "_JnSLC0"
+      "id": "_JnSLC0",
+      "title": "Pizza Rau Củ",
+      "price": "45",
+      "desc": " Thanh Nhẹ Với Ô Liu Đen Tuyệt Hảo, Cà Chua Bi Tươi Ngon, Nấm, Thơm, Bắp, Hành Tây Và Phô Mai Mozzarella Cho Bạn Bữa Tiệc Rau Củ Tròn Vị",
+      "img": "http://res.cloudinary.com/assignmentjs/image/upload/v1645507169/imgproduct/haojwfqhlzfgpvuknzzs.png"
     },
     {
-      "title": "test1",
-      "price": "111",
-      "desc": "demo",
-      "img": "http://res.cloudinary.com/assignmentjs/image/upload/v1645456242/imgproduct/ajrjniepzo5o39ma9jn8.png",
-      "id": "GozT0wi"
-    },
-    {
-      "title": "đào ngọc linh",
-      "price": "12",
-      "desc": "sản phẩm chất lượng tốt",
-      "img": "http://res.cloudinary.com/assignmentjs/image/upload/v1645467326/imgproduct/ldfco4b7qzoel6dy12gz.png",
-      "id": "f1e_HUb"
+      "title": "Pizza Pepperoni",
+      "price": "60",
+      "desc": "Pepperoni Với Phô Mai Mozzarella Tuyệt Hảo",
+      "img": "http://res.cloudinary.com/assignmentjs/image/upload/v1645519071/imgproduct/jp9twj6cnplwnw1iz8sb.png",
+      "id": "dpF4Owe"
     }
   ],
   "users": [
@@ -97,6 +90,12 @@
       "password": "$2a$10$HQt3Y0MKTkejoWz8nW8NDOShfZq9e49ur4BJGS8ozHfU7lelE/XVe",
       "username": "test1",
       "id": 9
+    },
+    {
+      "email": "admin10@gmail.com",
+      "password": "$2a$10$UHj.uzgv.i3qMJlJZGEC7uBTzBtmOTUEObr7jq9OHVHKwXSZQSN4O",
+      "username": "admin10",
+      "id": 10
     }
   ]
 }
