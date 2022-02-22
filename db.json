@@ -36,18 +36,11 @@
       "id": "GozT0wi"
     },
     {
-      "title": "test1",
-      "price": "111",
-      "desc": "demo",
-      "img": "http://res.cloudinary.com/assignmentjs/image/upload/v1645456243/imgproduct/fwcewbvhrcof6edh1elm.png",
-      "id": "aK8rQEr"
-    },
-    {
-      "title": "test1",
-      "price": "111",
-      "desc": "demo",
-      "img": "http://res.cloudinary.com/assignmentjs/image/upload/v1645456243/imgproduct/fuvzx9nookfngpob6ywy.png",
-      "id": "YPOd0Ld"
+      "title": "đào ngọc linh",
+      "price": "12",
+      "desc": "sản phẩm chất lượng tốt",
+      "img": "http://res.cloudinary.com/assignmentjs/image/upload/v1645467326/imgproduct/ldfco4b7qzoel6dy12gz.png",
+      "id": "f1e_HUb"
     }
   ],
   "users": [
