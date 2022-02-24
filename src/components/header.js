@@ -10,7 +10,6 @@ const Header = {
           alt=""
         />
       </div>
-      <header>
         <div
           class="w-[1200px] mt-7 mx-auto absolute flex justify-between top-0 left-0 right-0 z-10"
         >
@@ -207,7 +206,6 @@ const Header = {
             </div>
           </div>
         </div>
-      </header>
         `;
   },
   afterRender() {
@@ -217,7 +215,7 @@ const Header = {
       userName.innerHTML = JSON.parse(localStorage.getItem("user")).username;
       logout.addEventListener("click", () => {
         localStorage.removeItem("user");
-        reRender(Header, "header");
+        reRender(Header, "#header");
       });
     }
   },

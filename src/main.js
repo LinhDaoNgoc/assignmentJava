@@ -9,6 +9,9 @@ import Signin from "./pages/signin";
 import Signup from "./pages/signup";
 import productList from "./components/productList";
 import detail from "./pages/detail";
+// import AccountsAdminPage from "./page/Admin/users";
+// import UserAdd from "./page/Admin/users/userAdd";
+// import UserEdit from "./page/Admin/users/userEdit";
 const router = new Navigo("/", { linksSelector: "a" });
 
 const print = async (content, id) => {
@@ -31,8 +34,6 @@ const print = async (content, id) => {
 // });
 router.on({
   "/": () => print(HomePage),
-  // "/about": () => print(AboutPage),
-  // "/news/:id": (value) => print(DetailNewsPage, value.data.id),
   "/admin": () => {
     print(DashboardPage);
   },
@@ -44,6 +45,7 @@ router.on({
   },
   "/admin/products/add": () => print(ProductAdd),
   "/admin/products/:id/edit": (value) => print(ProductEdit, value.data.id),
+  // "/news/:id": (value) => print(DetailNewsPage, value.data.id),
   // "/admin/news": () => print(AdminNewsPage),
   // "/admin/news/:id/edit": ({ data }) => print(AdminEditPost, data.id),
   // "/admin/news/add": () => print(AdminNewsAddPage),
@@ -52,6 +54,9 @@ router.on({
   "/cart": () => print(CartPage),
   "/products": () => print(productList),
   "/detail/:id": ({ data }) => print(detail, data.id),
+  // "/admin/users": () => render(AccountsAdminPage),
+  // "/admin/users/add": () => render(UserAdd),
+  // "/admin/users/:id/edit": (value) => render(UserEdit, value.data.id),
 });
 
 router.resolve();

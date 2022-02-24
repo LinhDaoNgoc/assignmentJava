@@ -3,8 +3,8 @@ const ProductList = {
   async render() {
     const { data } = await getAllProducts();
     return /* html */ `
+ 
       <main>
-        
         <div class="w-[1200px] mt-20 mx-auto">
           <div>
             <h3 class="text-center text-3xl">Our Menu</h3>

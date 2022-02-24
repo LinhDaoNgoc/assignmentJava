@@ -6,7 +6,8 @@ import Slider from "../components/slider";
 const HomePage = {
   async render() {
     return /* html */ `
-    ${Header.render()}
+    <header id="header"> ${Header.render()}</header>
+   
     ${Slider.render()}
     ${await ProductList.render()}
     ${Footer.render()}`;

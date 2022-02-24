@@ -72,7 +72,7 @@ const Signup = {
         </div>
         <p class="mt-2 text-center text-sm text-gray-600">
         Bạn đã có tài khoản?
-        <a href="/signup" class="font-medium text-indigo-600 hover:text-indigo-500"> Đăng nhập </a>
+        <a href="/signin" class="font-medium text-indigo-600 hover:text-indigo-500"> Đăng nhập </a>
       </p>
       </form>
     </div>

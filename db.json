@@ -1,11 +1,11 @@
 {
   "products": [
     {
-      "title": "Delicious Pizza",
-      "desc": "Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque",
-      "img": "https://res.cloudinary.com/assignment22/image/upload/v1645243736/imgproduct/f1_grmyrl.png",
-      "price": "3000000",
-      "id": "1"
+      "id": "1",
+      "title": " Pizza Nhiệt Đới",
+      "price": "20",
+      "desc": "Pizza Go Combo 01 Pizza Go Bò Xốt Tiêu Đen/Thịt Xông Khói/Gà Xốt Pesto 01 Pepsi/7Up/Mirinda/Aquafina",
+      "img": "http://res.cloudinary.com/assignmentjs/image/upload/v1645522676/imgproduct/ebi3x8l6ajrlevdip6eo.png"
     },
     {
       "title": "Delicious Pizza",
@@ -34,6 +34,13 @@
       "desc": "Pepperoni Với Phô Mai Mozzarella Tuyệt Hảo",
       "img": "http://res.cloudinary.com/assignmentjs/image/upload/v1645519071/imgproduct/jp9twj6cnplwnw1iz8sb.png",
       "id": "dpF4Owe"
+    },
+    {
+      "title": "Pizza Hải Sản Xốt",
+      "price": "80",
+      "desc": " Tôm, Mực Và Nấm Trên Nền Xốt Pesto Đặc Trưng, Phủ Phô Mai Mozzarella",
+      "img": "http://res.cloudinary.com/assignmentjs/image/upload/v1645522761/imgproduct/xouu78gnmc44tohtkfa0.png",
+      "id": "SEhrxgd"
     }
   ],
   "users": [
@@ -96,6 +103,12 @@
       "password": "$2a$10$UHj.uzgv.i3qMJlJZGEC7uBTzBtmOTUEObr7jq9OHVHKwXSZQSN4O",
       "username": "admin10",
       "id": 10
+    },
+    {
+      "email": "daongoclinh@gmail.com",
+      "password": "$2a$10$AYtXAsLyZ3kiTWPhp2DEQOLdh2Gy/tKf61Ls7ttto69CE0uxTHVWO",
+      "username": "đào ngọc linh",
+      "id": 11
     }
   ]
 }
