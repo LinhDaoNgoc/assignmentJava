@@ -37,18 +37,18 @@ const CartPage = {
                             }" width="60" class="rounded-full ">
                                 <div class="flex flex-col ml-3 "> <span class="text-md font-medium">${
                                   products.title
-                                }</span> <button  data-id="${
+                                }</span> <button data-id="${
                               products.id
-                            }" class="btn btn-remove">Remove</button> </div>
+                            }" class="btn btn-remove hover:text-[red] ease-in duration-300 text-base font-bold">Xóa</button> </div>
                             </div>
                             <div class="flex justify-center items-center">
-                                <div class="pr-8 flex"> <button class="btn btn-decrease" data-id="${
+                                <div class="pr-8 flex"> <button class="btn btn-decrease " data-id="${
                                   products.id
-                                }">-</button> <input type="text" class="focus:outline-none bg-gray-100 border h-6 w-8 rounded text-sm px-1 mx-2" value="${
+                                }"> - </button> <input type="text" class="focus:outline-none bg-gray-100 border h-6 w-8 rounded text-sm px-1 mx-2" value="${
                               products.quantity
                             }"> <button data-id="${
                               products.id
-                            }" class="btn btn-increase">+</button> <td>
+                            }" class="btn btn-increase "> + </button> <td>
                                 
                             </td> </div>
                                 <div class="pr-8"> <span class="text-xs font-medium">${

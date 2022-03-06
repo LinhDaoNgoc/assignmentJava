@@ -41,6 +41,13 @@
       "desc": " Tôm, Mực Và Nấm Trên Nền Xốt Pesto Đặc Trưng, Phủ Phô Mai Mozzarella",
       "img": "http://res.cloudinary.com/assignmentjs/image/upload/v1645522761/imgproduct/xouu78gnmc44tohtkfa0.png",
       "id": "SEhrxgd"
+    },
+    {
+      "title": "re",
+      "price": "43214",
+      "desc": "sản phẩm tốt",
+      "img": "http://res.cloudinary.com/assignmentjs/image/upload/v1646581141/imgproduct/daheotvjikspqvq9je5g.jpg",
+      "id": "lwu4xPQ"
     }
   ],
   "users": [
@@ -109,6 +116,12 @@
       "password": "$2a$10$AYtXAsLyZ3kiTWPhp2DEQOLdh2Gy/tKf61Ls7ttto69CE0uxTHVWO",
       "username": "đào ngọc linh",
       "id": 11
+    },
+    {
+      "email": "daongochuy26@gmail.com",
+      "password": "$2a$10$C/GYkVE6x43jxUT6FCXofusyhN8W0klJVZ5neoeHHsb0My9CtB3Yy",
+      "username": "đào ngọc huy",
+      "id": 12
     }
   ]
 }
