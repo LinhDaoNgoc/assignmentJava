@@ -1,13 +1,6 @@
 {
   "products": [
     {
-      "id": "1",
-      "title": " Pizza Nhiệt Đới",
-      "price": "20",
-      "desc": "Pizza Go Combo 01 Pizza Go Bò Xốt Tiêu Đen/Thịt Xông Khói/Gà Xốt Pesto 01 Pepsi/7Up/Mirinda/Aquafina",
-      "img": "http://res.cloudinary.com/assignmentjs/image/upload/v1645522676/imgproduct/ebi3x8l6ajrlevdip6eo.png"
-    },
-    {
       "title": "Delicious Pizza",
       "desc": "Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque",
       "img": "https://res.cloudinary.com/assignment22/image/upload/v1645243736/imgproduct/f1_grmyrl.png",
@@ -122,6 +115,12 @@
       "password": "$2a$10$C/GYkVE6x43jxUT6FCXofusyhN8W0klJVZ5neoeHHsb0My9CtB3Yy",
       "username": "đào ngọc huy",
       "id": 12
+    },
+    {
+      "email": "linhkiss12@gmail.com",
+      "password": "$2a$10$g246bgDgQEu6jSX1r15xme83HSiJgZ0qHWuKGUDEWOZhmbm5iiOA6",
+      "username": "Linh đây",
+      "id": 13
     }
   ]
 }
