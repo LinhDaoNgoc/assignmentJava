@@ -121,6 +121,12 @@
       "password": "$2a$10$g246bgDgQEu6jSX1r15xme83HSiJgZ0qHWuKGUDEWOZhmbm5iiOA6",
       "username": "Linh đây",
       "id": 13
+    },
+    {
+      "email": "daongoclinh3005@gmail.com",
+      "password": "$2a$10$FhDgv93U/G77lKZLiY0J8e3k6LwCojto8RoOWR/mgC45bO0PU102a",
+      "username": "Đào Linh",
+      "id": 14
     }
   ]
 }
