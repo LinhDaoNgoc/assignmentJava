@@ -49,6 +49,7 @@ const Header = {
             </ul>
           </div>
           <div class="icon flex gap-3 mt-[25px]">
+          // login
             <div class="login text-white hover:text-[#ffbe33] group">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -104,6 +105,7 @@ const Header = {
 
 
             </div>
+            // end login
             <a href="/cart"> <div
               class="cart text-white hover:text-[#ffbe33] ease-in-out duration-300"
             >
